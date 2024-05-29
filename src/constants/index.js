@@ -32,7 +32,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     git_url: "https://github.com/naim-haider/MyPortfolio",
-    vercel_url: "https://note-app-with-authentication.vercel.app/",
+    vercel_url: "https://my-portfolio-nine-mauve-91.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],

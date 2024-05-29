@@ -8,7 +8,8 @@ const Navbar = () => {
   return (
     <nav className="mb20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="logo" />
+        {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
+        <h1 className="font-semibold text-white text-3xl">NH</h1>
       </div>
       <div className="mr-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/naim-haider-6825ba248/">
