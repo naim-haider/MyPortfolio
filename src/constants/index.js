@@ -45,7 +45,7 @@ export const PROJECTS = [
     vercel_url: "https://my-portfolio-nine-mauve-91.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
   },
 ];
 
