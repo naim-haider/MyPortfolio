@@ -19,14 +19,24 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
+  // {
+  //   title: "Chat App",
+  //   image: project2,
+  //   git_url: "https://github.com/naim-haider/SpoutChat-backend",
+  //   vercel_url: "https://spout-chat-frontend.vercel.app/",
+  //   description:
+  //     "An application for real-time chatting, with features such as personal chat, group chat, user authentication.",
+  //   technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Socket.io"],
+  // },
+
   {
-    title: "Chat App",
-    image: project2,
-    git_url: "https://github.com/naim-haider/SpoutChat-backend",
-    vercel_url: "https://spout-chat-frontend.vercel.app/",
+    title: "Note App",
+    image: project4,
+    git_url: "https://github.com/naim-haider/NoteAppWithAuthentication",
+    vercel_url: "https://note-app-with-authentication.vercel.app/",
     description:
-      "An application for real-time chatting, with features such as personal chat, group chat, user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Socket.io"],
+      "Developed a note-taking app and implemented CRUD operations for creating, editing, and deleting notes.",
+    technologies: ["Next.js (frontend)", "MongoDB (backend)"],
   },
   {
     title: "Portfolio Website",
@@ -36,15 +46,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Note App",
-    image: project4,
-    git_url: "https://github.com/naim-haider/NoteAppWithAuthentication",
-    vercel_url: "https://note-app-with-authentication.vercel.app/",
-    description:
-      "Developed a note-taking app and implemented CRUD operations for creating, editing, and deleting notes.",
-    technologies: ["Next.js (frontend)", "MongoDB (backend)"],
   },
 ];
 
