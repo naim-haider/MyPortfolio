@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 import project4 from "../assets/projects/noteImg.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -37,6 +38,15 @@ export const PROJECTS = [
     description:
       "Developed a note-taking app and implemented CRUD operations for creating, editing, and deleting notes.",
     technologies: ["Next.js (frontend)", "MongoDB (backend)"],
+  },
+  {
+    title: "Weather App",
+    image: project5,
+    git_url: "https://github.com/naim-haider/Weather-App",
+    vercel_url: "https://weather-app-gamma-lake.vercel.app/",
+    description:
+      "A Next.js weather app with efficient SSR data fetching, a modern Material-UI interface, and responsive design for real-time updates across all devices.",
+    technologies: ["Next.js", "Material-UI"],
   },
   {
     title: "Portfolio Website",
